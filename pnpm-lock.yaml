@@ -1,0 +1,349 @@
+lockfileVersion: 5.3
+
+specifiers:
+  rollup: ^2.70.2
+  rollup-plugin-typescript2: ^0.31.2
+  tslib: ^2.3.1
+  typescript: ^4.6.3
+
+dependencies:
+  rollup: mirrors.tencent.com/rollup/2.70.2
+
+devDependencies:
+  rollup-plugin-typescript2: 0.31.2_rollup@2.70.2+typescript@4.6.3
+  tslib: mirrors.tencent.com/tslib/2.3.1
+  typescript: mirrors.tencent.com/typescript/4.6.3
+
+packages:
+
+  /@rollup/pluginutils/4.2.1:
+    resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      estree-walker: mirrors.tencent.com/estree-walker/2.0.2
+      picomatch: mirrors.tencent.com/picomatch/2.3.1
+    dev: true
+
+  /@yarn-tool/resolve-package/1.0.46:
+    resolution: {integrity: sha512-RJcBGTVywUqYGRtGkPSgJC/ozf0wK/xjUy66tXkbpL35U0o1oef4S0v23euxA/CiukqBWr2fRGtGY6FidESdTg==}
+    dependencies:
+      pkg-dir: mirrors.tencent.com/pkg-dir/5.0.0
+      tslib: mirrors.tencent.com/tslib/2.3.1
+      upath2: 3.1.12
+    transitivePeerDependencies:
+      - '@types/node'
+    dev: true
+
+  /path-is-network-drive/1.0.13:
+    resolution: {integrity: sha512-Hg74mRN6mmXV+gTm3INjFK40ncAmC/Lo4qoQaSZ+GT3hZzlKdWQSqAjqyPeW0SvObP2W073WyYEBWY9d3wOm3A==}
+    dependencies:
+      tslib: mirrors.tencent.com/tslib/2.3.1
+    dev: true
+
+  /path-strip-sep/1.0.10:
+    resolution: {integrity: sha512-JpCy+8LAJQQTO1bQsb/84s1g+/Stm3h39aOpPRBQ/paMUGVPPZChLTOTKHoaCkc/6sKuF7yVsnq5Pe1S6xQGcA==}
+    dependencies:
+      tslib: mirrors.tencent.com/tslib/2.3.1
+    dev: true
+
+  /rollup-plugin-typescript2/0.31.2_rollup@2.70.2+typescript@4.6.3:
+    resolution: {integrity: sha512-hRwEYR1C8xDGVVMFJQdEVnNAeWRvpaY97g5mp3IeLnzhNXzSVq78Ye/BJ9PAaUfN4DXa/uDnqerifMOaMFY54Q==}
+    peerDependencies:
+      rollup: '>=1.26.3'
+      typescript: '>=2.4.0'
+    dependencies:
+      '@rollup/pluginutils': 4.2.1
+      '@yarn-tool/resolve-package': 1.0.46
+      find-cache-dir: mirrors.tencent.com/find-cache-dir/3.3.2
+      fs-extra: mirrors.tencent.com/fs-extra/10.1.0
+      resolve: mirrors.tencent.com/resolve/1.22.0
+      rollup: mirrors.tencent.com/rollup/2.70.2
+      tslib: mirrors.tencent.com/tslib/2.3.1
+      typescript: mirrors.tencent.com/typescript/4.6.3
+    transitivePeerDependencies:
+      - '@types/node'
+    dev: true
+
+  /upath2/3.1.12:
+    resolution: {integrity: sha512-yC3eZeCyCXFWjy7Nu4pgjLhXNYjuzuUmJiRgSSw6TJp8Emc+E4951HGPJf+bldFC5SL7oBLeNbtm1fGzXn2gxw==}
+    peerDependencies:
+      '@types/node': '*'
+    dependencies:
+      path-is-network-drive: 1.0.13
+      path-strip-sep: 1.0.10
+      tslib: mirrors.tencent.com/tslib/2.3.1
+    dev: true
+
+  mirrors.tencent.com/commondir/1.0.1:
+    resolution: {integrity: sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/commondir/-/commondir-1.0.1.tgz}
+    name: commondir
+    version: 1.0.1
+    dev: true
+
+  mirrors.tencent.com/estree-walker/2.0.2:
+    resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/estree-walker/-/estree-walker-2.0.2.tgz}
+    name: estree-walker
+    version: 2.0.2
+    dev: true
+
+  mirrors.tencent.com/find-cache-dir/3.3.2:
+    resolution: {integrity: sha512-wXZV5emFEjrridIgED11OoUKLxiYjAcqot/NJdAkOhlJ+vGzwhOAfcG5OX1jP+S0PcjEn8bdMJv+g2jwQ3Onig==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/find-cache-dir/-/find-cache-dir-3.3.2.tgz}
+    name: find-cache-dir
+    version: 3.3.2
+    engines: {node: '>=8'}
+    dependencies:
+      commondir: mirrors.tencent.com/commondir/1.0.1
+      make-dir: mirrors.tencent.com/make-dir/3.1.0
+      pkg-dir: mirrors.tencent.com/pkg-dir/4.2.0
+    dev: true
+
+  mirrors.tencent.com/find-up/4.1.0:
+    resolution: {integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/find-up/-/find-up-4.1.0.tgz}
+    name: find-up
+    version: 4.1.0
+    engines: {node: '>=8'}
+    dependencies:
+      locate-path: mirrors.tencent.com/locate-path/5.0.0
+      path-exists: mirrors.tencent.com/path-exists/4.0.0
+    dev: true
+
+  mirrors.tencent.com/find-up/5.0.0:
+    resolution: {integrity: sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/find-up/-/find-up-5.0.0.tgz}
+    name: find-up
+    version: 5.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      locate-path: mirrors.tencent.com/locate-path/6.0.0
+      path-exists: mirrors.tencent.com/path-exists/4.0.0
+    dev: true
+
+  mirrors.tencent.com/fs-extra/10.1.0:
+    resolution: {integrity: sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/fs-extra/-/fs-extra-10.1.0.tgz}
+    name: fs-extra
+    version: 10.1.0
+    engines: {node: '>=12'}
+    dependencies:
+      graceful-fs: mirrors.tencent.com/graceful-fs/4.2.10
+      jsonfile: mirrors.tencent.com/jsonfile/6.1.0
+      universalify: mirrors.tencent.com/universalify/2.0.0
+    dev: true
+
+  mirrors.tencent.com/fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/fsevents/-/fsevents-2.3.2.tgz}
+    name: fsevents
+    version: 2.3.2
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  mirrors.tencent.com/function-bind/1.1.1:
+    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/function-bind/-/function-bind-1.1.1.tgz}
+    name: function-bind
+    version: 1.1.1
+    dev: true
+
+  mirrors.tencent.com/graceful-fs/4.2.10:
+    resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/graceful-fs/-/graceful-fs-4.2.10.tgz}
+    name: graceful-fs
+    version: 4.2.10
+    dev: true
+
+  mirrors.tencent.com/has/1.0.3:
+    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/has/-/has-1.0.3.tgz}
+    name: has
+    version: 1.0.3
+    engines: {node: '>= 0.4.0'}
+    dependencies:
+      function-bind: mirrors.tencent.com/function-bind/1.1.1
+    dev: true
+
+  mirrors.tencent.com/is-core-module/2.8.1:
+    resolution: {integrity: sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/is-core-module/-/is-core-module-2.8.1.tgz}
+    name: is-core-module
+    version: 2.8.1
+    dependencies:
+      has: mirrors.tencent.com/has/1.0.3
+    dev: true
+
+  mirrors.tencent.com/jsonfile/6.1.0:
+    resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/jsonfile/-/jsonfile-6.1.0.tgz}
+    name: jsonfile
+    version: 6.1.0
+    dependencies:
+      universalify: mirrors.tencent.com/universalify/2.0.0
+    optionalDependencies:
+      graceful-fs: mirrors.tencent.com/graceful-fs/4.2.10
+    dev: true
+
+  mirrors.tencent.com/locate-path/5.0.0:
+    resolution: {integrity: sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/locate-path/-/locate-path-5.0.0.tgz}
+    name: locate-path
+    version: 5.0.0
+    engines: {node: '>=8'}
+    dependencies:
+      p-locate: mirrors.tencent.com/p-locate/4.1.0
+    dev: true
+
+  mirrors.tencent.com/locate-path/6.0.0:
+    resolution: {integrity: sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/locate-path/-/locate-path-6.0.0.tgz}
+    name: locate-path
+    version: 6.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      p-locate: mirrors.tencent.com/p-locate/5.0.0
+    dev: true
+
+  mirrors.tencent.com/make-dir/3.1.0:
+    resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/make-dir/-/make-dir-3.1.0.tgz}
+    name: make-dir
+    version: 3.1.0
+    engines: {node: '>=8'}
+    dependencies:
+      semver: mirrors.tencent.com/semver/6.3.0
+    dev: true
+
+  mirrors.tencent.com/p-limit/2.3.0:
+    resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/p-limit/-/p-limit-2.3.0.tgz}
+    name: p-limit
+    version: 2.3.0
+    engines: {node: '>=6'}
+    dependencies:
+      p-try: mirrors.tencent.com/p-try/2.2.0
+    dev: true
+
+  mirrors.tencent.com/p-limit/3.1.0:
+    resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/p-limit/-/p-limit-3.1.0.tgz}
+    name: p-limit
+    version: 3.1.0
+    engines: {node: '>=10'}
+    dependencies:
+      yocto-queue: mirrors.tencent.com/yocto-queue/0.1.0
+    dev: true
+
+  mirrors.tencent.com/p-locate/4.1.0:
+    resolution: {integrity: sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/p-locate/-/p-locate-4.1.0.tgz}
+    name: p-locate
+    version: 4.1.0
+    engines: {node: '>=8'}
+    dependencies:
+      p-limit: mirrors.tencent.com/p-limit/2.3.0
+    dev: true
+
+  mirrors.tencent.com/p-locate/5.0.0:
+    resolution: {integrity: sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/p-locate/-/p-locate-5.0.0.tgz}
+    name: p-locate
+    version: 5.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      p-limit: mirrors.tencent.com/p-limit/3.1.0
+    dev: true
+
+  mirrors.tencent.com/p-try/2.2.0:
+    resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/p-try/-/p-try-2.2.0.tgz}
+    name: p-try
+    version: 2.2.0
+    engines: {node: '>=6'}
+    dev: true
+
+  mirrors.tencent.com/path-exists/4.0.0:
+    resolution: {integrity: sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/path-exists/-/path-exists-4.0.0.tgz}
+    name: path-exists
+    version: 4.0.0
+    engines: {node: '>=8'}
+    dev: true
+
+  mirrors.tencent.com/path-parse/1.0.7:
+    resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/path-parse/-/path-parse-1.0.7.tgz}
+    name: path-parse
+    version: 1.0.7
+    dev: true
+
+  mirrors.tencent.com/picomatch/2.3.1:
+    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/picomatch/-/picomatch-2.3.1.tgz}
+    name: picomatch
+    version: 2.3.1
+    engines: {node: '>=8.6'}
+    dev: true
+
+  mirrors.tencent.com/pkg-dir/4.2.0:
+    resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/pkg-dir/-/pkg-dir-4.2.0.tgz}
+    name: pkg-dir
+    version: 4.2.0
+    engines: {node: '>=8'}
+    dependencies:
+      find-up: mirrors.tencent.com/find-up/4.1.0
+    dev: true
+
+  mirrors.tencent.com/pkg-dir/5.0.0:
+    resolution: {integrity: sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/pkg-dir/-/pkg-dir-5.0.0.tgz}
+    name: pkg-dir
+    version: 5.0.0
+    engines: {node: '>=10'}
+    dependencies:
+      find-up: mirrors.tencent.com/find-up/5.0.0
+    dev: true
+
+  mirrors.tencent.com/resolve/1.22.0:
+    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/resolve/-/resolve-1.22.0.tgz}
+    name: resolve
+    version: 1.22.0
+    hasBin: true
+    dependencies:
+      is-core-module: mirrors.tencent.com/is-core-module/2.8.1
+      path-parse: mirrors.tencent.com/path-parse/1.0.7
+      supports-preserve-symlinks-flag: mirrors.tencent.com/supports-preserve-symlinks-flag/1.0.0
+    dev: true
+
+  mirrors.tencent.com/rollup/2.70.2:
+    resolution: {integrity: sha512-EitogNZnfku65I1DD5Mxe8JYRUCy0hkK5X84IlDtUs+O6JRMpRciXTzyCUuX11b5L5pvjH+OmFXiQ3XjabcXgg==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/rollup/-/rollup-2.70.2.tgz}
+    name: rollup
+    version: 2.70.2
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: mirrors.tencent.com/fsevents/2.3.2
+    dev: false
+
+  mirrors.tencent.com/semver/6.3.0:
+    resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/semver/-/semver-6.3.0.tgz}
+    name: semver
+    version: 6.3.0
+    hasBin: true
+    dev: true
+
+  mirrors.tencent.com/supports-preserve-symlinks-flag/1.0.0:
+    resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz}
+    name: supports-preserve-symlinks-flag
+    version: 1.0.0
+    engines: {node: '>= 0.4'}
+    dev: true
+
+  mirrors.tencent.com/tslib/2.3.1:
+    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/tslib/-/tslib-2.3.1.tgz}
+    name: tslib
+    version: 2.3.1
+    dev: true
+
+  mirrors.tencent.com/typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/typescript/-/typescript-4.6.3.tgz}
+    name: typescript
+    version: 4.6.3
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  mirrors.tencent.com/universalify/2.0.0:
+    resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/universalify/-/universalify-2.0.0.tgz}
+    name: universalify
+    version: 2.0.0
+    engines: {node: '>= 10.0.0'}
+    dev: true
+
+  mirrors.tencent.com/yocto-queue/0.1.0:
+    resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==, registry: https://mirrors.cloud.tencent.com/npm/, tarball: https://mirrors.tencent.com/npm/yocto-queue/-/yocto-queue-0.1.0.tgz}
+    name: yocto-queue
+    version: 0.1.0
+    engines: {node: '>=10'}
+    dev: true
