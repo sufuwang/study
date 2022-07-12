@@ -26,6 +26,10 @@ export class UserController {
     private readonly configService: ConfigService,
   ) {}
 
+  @Get('findAllByMysql')
+  findAllByMysql() {
+    return this.userService.findAllByMysql();
+  }
   @Get('err')
   // @Version('1')
   err() {
