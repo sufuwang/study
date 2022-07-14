@@ -1,0 +1,17 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["plugin:@typescript-eslint/recommended", "standard"],
+  "globals": {
+    "console": "readonly",
+    "require": "readonly",
+    "module": "readonly",
+    "__dirname": "readonly"
+
+  },
+  "rules": {
+    "@typescript-eslint/no-var-requires": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "semi": ["error", "always"]
+  }
+}
