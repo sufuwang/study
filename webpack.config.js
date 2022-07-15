@@ -2,7 +2,6 @@ const path = require('path');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
-const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
   entry: './src/index.ts',
@@ -42,11 +41,6 @@ module.exports = {
         ]
       },
       {
-        test: /\.vue$/,
-        exclude: /node_modules/,
-        use: 'vue-loader'
-      },
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: ['babel-loader']
@@ -67,13 +61,26 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.(j|t)sx$/,
+        use: 'ts-loader'
       }
+      // {
+      //   test: /\.(j|t)sx$/,
+      //   loader: 'babel-loader',
+      //   options: {
+      //     presets: [
+      //       ['@babel/preset-react', { runtime: 'automatic' }],
+      //       '@babel/preset-typescript'
+      //     ]
+      //   }
+      // }
     ]
   },
   plugins: [
-    new VueLoaderPlugin(),
     new ESLintPlugin({
-      extensions: ['.js', '.ts']
+      extensions: ['.js', '.ts', 'jsx', 'tsx']
     }),
     new MiniCssExtractPlugin(),
     new HTMLWebpackPlugin({
@@ -81,9 +88,8 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: ['.vue', '.ts', '.js'],
+    extensions: ['.js', '.jsx', '.ts', '.tsx'],
     alias: {
-      // vue: 'vue/dist/vue.esm-bundler.js',
       '@': path.resolve(__dirname, 'src'),
       '@pages': path.resolve(__dirname, 'src/pages')
     }

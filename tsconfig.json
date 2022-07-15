@@ -4,7 +4,7 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
@@ -26,17 +26,17 @@
       "esnext",
       "dom",
       "dom.iterable",
-      "ScriptHost",
+      "ESNext",
     ]
   },
   "include": [
     "./src/**/*",
     "src/**/*.ts",
-    "src/**/*.vue", 
+    "src/**/*.jsx", 
+    "src/**/*.tsx", 
   ],
   "exclude": [
     "node_modules",
     "dist",
-    "patient-files_pc"
   ]
 }
